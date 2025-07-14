@@ -177,28 +177,84 @@ main {
   color: #6A6770;
 }
 
-.holiday-discount{
-  margin-top: 500px;
-  height: 1000px;
-  
-  
+.holiday-discount {
+  padding-top: 500px;
+  /* height: 1000px; */
+
 }
 
 
-.holiday-images{
- position: relative;
- 
+.holiday-images {
+  position: relative;
+
 }
 
-.holiday-1{
+.holiday-1 {
   position: absolute;
   bottom: 20px;
 
 }
 
-.holiday-2{
+.holiday-2 {
   position: absolute;
-   right: 0;
-   bottom: 240px;
+  right: 0;
+  bottom: 240px;
+}
+
+/* our-awesome-portfolio */
+.title-head {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF0000;
+}
+
+
+.our-awesome-portfolio {
+  margin-top: 120px;
+}
+
+.our-awesome-portfolio h2 {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+  margin-top: 16px;
+}
+
+.our-awesome-portfolio p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: #07021199;
+  padding-bottom: 48px;
+}
+
+.awesome-portfolio-images {
+  /* width: 424px;
+     height: 450px;
+     margin-right: 20px; */
+  /* flex-direction: column; */
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+
+/* Subscribe Newsletter */
+.Subscribe-container {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 212px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.btn-subscribe {
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  color: white;
+  border: none;
 }
 
