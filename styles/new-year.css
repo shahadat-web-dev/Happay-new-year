@@ -1,0 +1,202 @@
+/* Google font */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+main {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  color: white;
+  height: 600px;
+  background: linear-gradient(180deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%),
+    url(../images/Banner\ Image.png);
+}
+
+.title-discount {
+  font-size: 80px;
+  font-weight: 700;
+  color: red;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.new-year-photo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+.victor {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  align-items: center;
+  border-radius: 16px;
+  height: 600px;
+  color: white;
+  background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png)
+}
+
+.victor-flex {
+  display: flex;
+  gap: 70px;
+}
+
+
+.victor-title {
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.victor-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* place-hotel */
+.place-hotel {
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+  border-radius: 16px;
+  text-align: center;
+  padding: 100px 385px;
+  margin-top: 120px;
+}
+
+.place-title {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  color: #070211;
+}
+
+.head-color {
+  color: #FF0000;
+}
+
+.place-btn {
+  background-color: #FF0000;
+  padding: 16px 32px;
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  margin-top: 48px;
+}
+
+/* new best offer  styles*/
+.new-best-container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 120px;
+}
+
+.new-best-title h3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF0000;
+
+}
+
+.new-best-title h2 {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 12px;
+}
+
+.new-best-title p {
+  color: #07021199;
+}
+
+.new-best-images {
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 30px;
+  margin-right: 80px;
+}
+
+.new-best-year h3 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  color: #FF0000;
+}
+
+.new-best-year p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: #07021199;
+}
+
+/* Holidays Sale 50% */
+
+.holiday-title {
+  text-align: center;
+}
+
+.holiday-title h2 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.holiday-title h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+
+.holiday-title p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: #6A6770;
+}
+
+.holiday-discount{
+  margin-top: 500px;
+  height: 1000px;
+  
+  
+}
+
+
+.holiday-images{
+ position: relative;
+ 
+}
+
+.holiday-1{
+  position: absolute;
+  bottom: 20px;
+
+}
+
+.holiday-2{
+  position: absolute;
+   right: 0;
+}
