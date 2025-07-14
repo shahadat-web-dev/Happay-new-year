@@ -294,3 +294,38 @@ main {
   font-size: 20px;
   font-weight: 500;
 }
+
+/* footer section */
+.footer-container{
+  margin-top: 120px;
+}
+
+
+.footer-container {
+  background: #070211;
+  color: white;
+  padding: 120px 140px;
+}
+
+.footer-flex-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-flex-2 {
+  text-align: center;
+  margin-top: 98px;
+}
+
+
+
+.footer-flex-2 img {
+  margin-right: 23px;
+  
+}
+
+.footer-flex-3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 98px;
+}
