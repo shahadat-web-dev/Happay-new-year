@@ -205,7 +205,7 @@ main {
 .title-head {
   font-family: Inter;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   color: #FF0000;
 }
 
@@ -258,3 +258,39 @@ main {
   border: none;
 }
 
+/* Subscribe news letter */
+.Subscribe-container h2 {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.Subscribe-container p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: #07021199;
+}
+
+.Subscribe-input-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.Subscribe-input-btn input {
+  border: none;
+  padding: 24px 152px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0702114D;
+}
+
+.Subscribe-input-btn button {
+  padding: 24px 56px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
